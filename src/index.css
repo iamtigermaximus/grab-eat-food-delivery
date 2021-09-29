@@ -1,13 +1,112 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.nav.active{
+ background-color: azure;
+ box-shadow: 2px solid blueviolet;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+
+}
+.nav-links li{
+  list-style: none;
+}
+.item-link{
+  text-decoration: none;
+  font-size: 14px;
+  text-shadow:  2px;
+  
+}
+.logo .item-link{
+  font-family: 'Rock Salt', cursive;
+  padding-bottom: 20px;
+  text-shadow:  2px 2px 4px black;
+  padding-top: 15px;
+  color:azure;
+}
+.logo .item-link.active{
+  font-family: 'Rock Salt', cursive;
+  padding-bottom: 20px;
+  text-shadow:  2px 2px 4px green;
+  padding-top: 15px;
+  color: rgb(40, 104, 40);
+}
+.burger{
+  display: none;
+}
+.cart-icon-total{
+    font-size: 10px;
+}
+/*HOMEPAGE*/
+.home-page{
+  background-image: ;
+  height: 100vh;
+  width: 100%;
+}
+.hero{
+  background-image: url('./images/food-image12.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.location-container{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-location i{
+  position: absolute;
+  padding-top:8px;
+}
+.section1{
+  background-color: orangered;
+  height: 100%;
+  width: 100%;
+}
+.section2{
+  background-color: cornflowerblue;
+  height: 100%;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cart-page{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.login{
+  height: 100vh;
+  width: 100%;
+ background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+}
+.signup{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
