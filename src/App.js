@@ -8,16 +8,17 @@ import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 import Cart from './pages/Cart'
 
-function App() {
+const App = () => {
+  
   return (
     <>
       <BrowserRouter>
-        <Navbar />
-        <Switch>
+          <Navbar/>
+          <Switch>
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/login">
+            <Route path="/login">
             <Login />
           </Route>
           <Route path="/signup">

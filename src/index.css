@@ -20,8 +20,7 @@ body{
   left: 0;
 }
 .nav.active{
- background-color: azure;
- box-shadow: 2px solid blueviolet;
+ background-color: #00b14f;
 }
 .nav-links{
   display: flex;
@@ -51,7 +50,7 @@ body{
   padding-bottom: 20px;
   text-shadow:  2px 2px 4px green;
   padding-top: 15px;
-  color: rgb(40, 104, 40);
+  color: azure;
 }
 .burger{
   display: none;
@@ -61,7 +60,6 @@ body{
 }
 /*HOMEPAGE*/
 .home-page{
-  background-image: ;
   height: 100vh;
   width: 100%;
 }
@@ -84,13 +82,20 @@ body{
   position: absolute;
   padding-top:8px;
 }
+.btn-search-location{
+  padding: 2px 15px;
+  background-color: #00b14f;
+  border: none;
+  color: azure;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
 .section1{
-  background-color: orangered;
   height: 100%;
   width: 100%;
 }
 .section2{
-  background-color: cornflowerblue;
   height: 100%;
   width: 100%;
 }
@@ -98,15 +103,14 @@ body{
 .cart-page{
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  
 }
 .login{
   height: 100vh;
   width: 100%;
- background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+ 
 }
 .signup{
   height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  width: 100%;;
 }
