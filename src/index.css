@@ -39,7 +39,6 @@ body{
   text-decoration: none;
   font-size: 14px;
   text-shadow:  2px;
-  
 }
 .logo .item-link{
   font-family: 'Rock Salt', cursive;
@@ -66,6 +65,7 @@ body{
   height: 100vh;
   width: 100%;
 }
+/*HOMEPAGE---HERO*/
 .hero{
   background-image: url('./images/food-image12.jpg');
   height: 100%;
@@ -94,6 +94,7 @@ body{
   border-radius: 10px;
 
 }
+/*HOMEPAGE---POPULAR COMPONENT*/
 .popular-restaurants-component{
   height: 60%;
   width: 100%;
@@ -110,8 +111,8 @@ padding: 20px;
 .card-container{
   width: 400px;
     height:auto;
-    background: transparent !important;
-    border-radius: 10px !important;
+    background: transparent;
+    border-radius: 10px;
     padding-bottom: 50px;
     flex-direction: column;
 }
@@ -132,12 +133,43 @@ padding: 20px;
 .card-item{
     font-size: 12px;
 }
-
-.Section2{
+/*HOMEPAGE---CATEGORY COMPONENT*/
+.category-component{
   height: 100%;
   width: 100%;
 }
-
+.category-card-container{
+  width: 300px;
+    height:300px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+.category-image-container{
+ width: 250px;
+ height: 200px;
+  border-radius: 10px 10px;
+  
+}
+.category-image{
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+}
+.category-name{
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+.category-link{
+text-decoration: none;
+font-weight: 600;
+color: black;
+}
+.category-link:hover{
+color: #00b14f;
+}
+/*CART---LOGIN---SIGNUP*/
 .cart-page{
   height: 100vh;
   width: 100%;
@@ -151,4 +183,14 @@ padding: 20px;
 .signup{
   height: 100vh;
   width: 100%;;
+}
+
+
+@media (max-width:480px) {
+  .hero{
+    display: none;
+  }
+  .location-container{
+    display: block;
+  }
 }
