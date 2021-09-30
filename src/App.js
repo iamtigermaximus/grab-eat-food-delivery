@@ -1,7 +1,7 @@
 import {BrowserRouter,Switch, Route} from 'react-router-dom'
 //COMPONENTS
 import Navbar from './components/Navbar'
-
+import Footer from './components/Footer'
 //PAGES
 import Home from './pages/Home'
 import Login from './pages/Login'
@@ -28,6 +28,7 @@ const App = () => {
             <Cart />
           </Route>
         </Switch>
+        <Footer/>
       </BrowserRouter>
     </>
   );

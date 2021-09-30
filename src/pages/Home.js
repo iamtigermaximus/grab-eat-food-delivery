@@ -7,9 +7,9 @@ import Category from '../components/Category'
 const Home = () => {
     return (
         <div className="home-page">
-            <Hero />
-            <PopularRestaurants />
-            <Category/>
+                <Hero />
+                <PopularRestaurants />
+                <Category/>
         </div>
     )
 }
