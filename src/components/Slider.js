@@ -8,7 +8,9 @@ import Image4 from '../images/food-image4.jpg'
 const Slider = () => {
     return (
         <div className="carousel-wrapper">
-                <Carousel
+            <Carousel
+                showIndicators={false}
+                showStatus={false}
             >
                     <div className="cards-wrapper">
                         <div className="card-container">
