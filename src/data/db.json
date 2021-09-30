@@ -61,64 +61,100 @@
             "rating":1
         }
     ],
-    "women":[
+    "categories":[
         {
             "id":1,
-            "name":"Women Restaurant 1",
+            "name":"Beef",
             "description":"Lorem ipsum lorem",
             "rating":10   
         },
         {
             "id":2,
-            "name":"Women Restaurant 2",
+            "name":"Pork",
             "description":"Lorem ipsum lorem",
             "rating":20   
         },
         {
             "id":3,
-            "name":"Women Restaurant 3" ,
+            "name":"Chicken" ,
             "description":"Lorem ipsum lorem",
             "rating":30   
         },
         {
             "id":4,
-            "name":"Women Restaurant 4",
+            "name":"Pizza",
             "description":"Lorem ipsum lorem",
             "rating":40   
         },
         {
             "id":5,
-            "name":"Women Restaurant 5",
+            "name":"Fastfood",
             "description":"Lorem ipsum lorem",
             "rating":50   
         },
         {
             "id":6,
-            "name":"Women Restaurant 6",
+            "name":"Asian",
             "description":"Lorem ipsum lorem",
             "rating":60   
         },
         {
             "id":7,
-            "name":"Women Restaurant 7",
+            "name":"Vegan",
             "description":"Lorem ipsum lorem",
             "rating":70   
         },
         {
             "id":8,
-            "name":"Women Restaurant 8",
+            "name":"Italian",
             "description":"Lorem ipsum lorem",
             "rating":80   
         },
         {
             "id":9,
-            "name":"Women Restaurant 9",
+            "name":"Bakery",
             "description":"Lorem ipsum lorem",
             "rating":90   
         },
         {
             "id":10,
-            "name":"Women Restaurant 10",
+            "name":"Japanese",
+            "description":"Lorem ipsum lorem",
+            "rating":100   
+        },
+        {
+            "id":11,
+            "name":"Chinese",
+            "description":"Lorem ipsum lorem",
+            "rating":90   
+        },
+        {
+            "id":12,
+            "name":"Burgers",
+            "description":"Lorem ipsum lorem",
+            "rating":100   
+        },
+        {
+            "id":13,
+            "name":"Snacks",
+            "description":"Lorem ipsum lorem",
+            "rating":90   
+        },
+        {
+            "id":14,
+            "name":"Beverages",
+            "description":"Lorem ipsum lorem",
+            "rating":100   
+        },
+        {
+            "id":15,
+            "name":"Bakery",
+            "description":"Lorem ipsum lorem",
+            "rating":90   
+        },
+        {
+            "id":16,
+            "name":"Breakfast and Brunch",
             "description":"Lorem ipsum lorem",
             "rating":100   
         }
