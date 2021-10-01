@@ -13,7 +13,7 @@ const Hero = () => {
                                     <h3 className="heading-content-text p-3">
                                     Let's explore good food in your area.
                                     </h3>
-                                    <div className="search-location ">
+                                    <div className="search-location mx-auto ">
                                         <i className="text-danger fs-5"><IoLocationSharp/></i>
                                         <input className="form-control-lg form-control-md form-control-sm" placeholder="Type your location" />
                                     </div>
