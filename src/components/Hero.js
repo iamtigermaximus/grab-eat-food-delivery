@@ -15,7 +15,7 @@ const Hero = () => {
                                     </h3>
                                     <div className="search-location ">
                                         <i className="text-danger fs-5"><IoLocationSharp/></i>
-                                        <input className="form-control-lg form-control-md" placeholder="Type your location" />
+                                        <input className="form-control-lg form-control-md form-control-sm" placeholder="Type your location" />
                                     </div>
                                     <div className="button py-2 text-center">
                                         <button className="btn-search-location">Search</button>
