@@ -9,7 +9,6 @@ const PopularRestaurants = () => {
                 <h1>Popular Restaurants</h1>
             </div>
             <Slider/>
-         
         </div>
     )
 }
