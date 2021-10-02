@@ -7,9 +7,9 @@ const Hero = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
-                        <div className="p-5">
+                        <div className=" mx-auto">
                             <div className="location-container text-center">
-                                <div className="heading-content rounded px-4 pb-5 bg-light">
+                                <div className="heading-content rounded pb-5 bg-light">
                                     <h3 className="heading-content-text p-3">
                                     Let's explore good food in your area.
                                     </h3>
