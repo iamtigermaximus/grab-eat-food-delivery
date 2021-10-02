@@ -336,7 +336,7 @@ color: #00b14f;
 }
 .hero{
   background-image: url('./images/food-image12.jpg');
-  height: 60vh;
+  height: 50vh;
   width: auto;
   background-position: top;
   background-size: cover;
@@ -351,7 +351,7 @@ color: #00b14f;
 }
 .heading-content{
 height: 200px;
-width: 300px;
+width: 400px;
 }
 .heading-content-text{
  font-size: 20px;
