@@ -212,7 +212,7 @@ color: #00b14f;
 .hero{
   background-image: url('./images/food-image12.jpg');
   height: 50vh;
-  width: auto;
+  width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -224,10 +224,7 @@ color: #00b14f;
   justify-content: center;
   align-items: center;
 }
-.heading-content{
- padding: 10px;
- margin-left: 20px;
-}
+
 .heading-content-text{
  font-size: 40px;
 }
@@ -337,7 +334,6 @@ color: #00b14f;
 .hero{
   background-image: url('./images/food-image12.jpg');
   height: 50vh;
-  width: auto;
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -349,10 +345,7 @@ color: #00b14f;
   justify-content: center;
   align-items: center;
 }
-.heading-content{
-height: 200px;
-width: 400px;
-}
+
 .heading-content-text{
  font-size: 20px;
 }
