@@ -6,7 +6,7 @@ const PopularRestaurants = () => {
     return (
         <div className="popular-restaurants-component">
             <div className="header-popular px-4">
-                <h1>Popular Restaurants</h1>
+                <h1 className="py-2">Popular Restaurants</h1>
             </div>
             <Slider/>
         </div>
