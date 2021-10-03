@@ -1,10 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {FaBars, FaShoppingCart } from 'react-icons/fa'
 import { Link} from 'react-router-dom'
 
 const Navbar = () => {
-   
- 
     return (
         <div className="nav active">
             <div className="burger text-light">
