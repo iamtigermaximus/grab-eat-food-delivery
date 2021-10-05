@@ -18,7 +18,7 @@ const Login = () => {
                                     <button className="button-login-link my-2 bg-white text-danger border border-danger fw-bold"><span className="fs-5 mx-2"><FcGoogle/></span>CONTINUE WITH GOOGLE</button>
                                 <button className="button-login-link my-2 bg-primary text-light fw-bold"><span className="fs-5 mx-2"><FaFacebook/></span>CONTINUE WITH FACEBOOK</button>
                                 <h5 className="text-center"> or </h5>
-                                <button className="button-login-link my-2 fw-bold border border-success text-success">CONTINUE WITH EMAIL</button>
+                                <button className="button-login-link my-2 fw-bold border border-success text-success bg-white">CONTINUE WITH EMAIL</button>
                             </div>
                             </div>
                         </div>
