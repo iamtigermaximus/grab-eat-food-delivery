@@ -189,8 +189,29 @@ color: #00b14f;
 .login{
   height: 100vh;
   width: 100%;
-  margin-top: 8vh;
- 
+}
+.login-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.login-wrapper{
+  width: 100%;
+  box-shadow: 0 0 10px gray;
+
+}
+.login-links{
+  width: 100%;
+}
+.button-login-link{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 12px;
 }
 
 @media (max-width:768px){
