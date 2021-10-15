@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
-import data from '../data/db.json'
+import data from '../data/db'
 import SingleCard from './SingleCard'
 
 
@@ -19,6 +19,7 @@ const Slider = () => {
                     id={pop.id}
                     name={pop.name}
                     description={pop.description}
+                    image={pop.image}
                 />
             ))}
        </Carousel>
