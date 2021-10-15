@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import CategoryCard from './CategoryCard'
-import data from '../data/db.json'
+import data from '../data/db'
 
 const Category = () => {
     return (
@@ -18,6 +18,7 @@ const Category = () => {
                                 <CategoryCard
                                         id={category.id}
                                         name={category.name}
+                                        image={category.image}
                                     />
                                      </Link>
                                 </div>
